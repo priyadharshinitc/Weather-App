@@ -47,6 +47,11 @@ The **Weather App** is a responsive, user-friendly web application built using *
    http://localhost:3000
    ```
 
+6. Alternatively, check out the live demo hosted on Vercel:
+   ```
+   https://weather-app-eight-fawn-61.vercel.app/
+   ```
+
 ## Future Enhancements
 
 * Add support for Fahrenheit temperature.
