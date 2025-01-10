@@ -10,6 +10,10 @@ The **Weather App** is a responsive, user-friendly web application built using *
   * Weather condition (e.g., mist, clouds)
   * Humidity level (in %)
   * Wind speed (in m/s)
+* **4-Day Weather Forecast**: Provides weather details for the next four days, including:
+  * Date
+  * Weather icon based on the condition
+  * Temperature (in Celsius)
 * **Responsive Design**: Optimized for a seamless experience on devices of all sizes.
 * **Search Functionality**: A search bar allows users to enter a city name to retrieve weather data.
 * **Error Handling**:
@@ -55,7 +59,6 @@ The **Weather App** is a responsive, user-friendly web application built using *
 ## Future Enhancements
 
 * Add support for Fahrenheit temperature.
-* Integrate a 5-day weather forecast feature.
 * Allow geolocation-based weather retrieval.
 
 ## Feedback
