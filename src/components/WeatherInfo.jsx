@@ -1,4 +1,5 @@
 import React from 'react';
+
 import thunderstorm from '../assets/weather/thunderstorm.svg';
 import drizzle from '../assets/weather/drizzle.svg';
 import rain from '../assets/weather/rain.svg';
@@ -41,7 +42,7 @@ const WeatherInfo = (props) => {
 
   return (
     <>
-        <section className={`weather-info flex flex-col gap-6`}>
+        <section className={`weather-info flex flex-col justify-center h-1/2 gap-2`}>
           <div className="location-date-container flex justify-between items-center">
             <div className="location flex items-center gap-1">
               <span className="material-symbols-outlined">
@@ -53,9 +54,9 @@ const WeatherInfo = (props) => {
           </div>
 
           <div className="weather-summary-container flex justify-between items-center">
-            <img src={getWeatherIcon(id)} className="weather-summary-img w-[120px] h-[120px]" />
+            <img src={getWeatherIcon(id)} alt={main} className="weather-summary-img w-[120px] h-[120px]" />
             <div className="weather-summary-info text-end">
-              <h1 className="temp-txt text-2xl">{Math.round(temp) + ' ℃'}</h1>
+              <h1 className="temp-txt text-2xl">{Math.round(temp)} °C</h1>
               <h3 className="condition-txt regular-txt text-xl">{main}</h3>
             </div>
           </div>
@@ -83,7 +84,7 @@ const WeatherInfo = (props) => {
           </div>
         </section>
     </>
-  )
+  );
 }
 
-export default WeatherInfo
+export default WeatherInfo;

@@ -1,8 +1,8 @@
 import React from 'react';
+
 import notFound from '../assets/message/notFound.svg';
 
-const NotFoundPage = () => {
-  
+const NotFoundPage = () => {  
   return (
     <>
         <section className={`not-found section-message flex flex-col items-center gap-3 text-center mt-1/4`}>
@@ -14,4 +14,4 @@ const NotFoundPage = () => {
   )
 }
 
-export default NotFoundPage
+export default NotFoundPage;

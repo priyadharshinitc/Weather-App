@@ -27,5 +27,20 @@ body::before {
   width: 100vw;
   height: 100dvh;
   background: rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
+}
+
+.forecast-items-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.forecast-items-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+}
+
+.forecast-items-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0 , 0.2);
+  border-radius: 100px;
+  cursor: pointer;
 }
